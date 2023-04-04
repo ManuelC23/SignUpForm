@@ -1,11 +1,11 @@
 @font-face {
     font-family: odin-font;
-    src: url(/styles/fonts/Norse-Bold.otf);
+    src: url(./fonts/Norse-Bold.otf);
 }
 
 @font-face {
     font-family: inter;
-    src: url(/styles/fonts/Inter.ttf);
+    src: url(./fonts/Inter.ttf);
 }
 
 body {
