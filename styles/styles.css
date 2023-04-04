@@ -20,7 +20,7 @@ body {
 .content .webinfo {
     height: 100vh;
     width: 40vw;
-    background-image: url(/img/background.jpg);
+    background-image: url(../img/background.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -69,6 +69,7 @@ h1 {
     gap: 30px;
     padding: 20px;
     background-color: rgb(214, 228, 229);
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.3);
 }
 
 .content .formDiv .form .input {
@@ -79,16 +80,20 @@ h1 {
 
 .content .formDiv label {
     font-family: inter;
+    color: #324B4D;
 }
 
 .content .formDiv .form input {
-    border: 1px solid rgb(131, 131, 131);
+    border: 1px solid #324B4D;
     border-radius: 3px;
+    height: 20px;
+
 }
 
 .content .formDiv .form input:focus {
     outline: none !important;
-    border: 2px solid rgb(47, 88, 205);
+    border: 1px solid #FF8A44;
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
 }
 
 .submitButton {
@@ -96,22 +101,32 @@ h1 {
 }
 
 .submitButton button {
-    background-color: transparent;
+    background-color: rgb(25, 167, 206);
     padding: 20px;
-    border: 2px solid rgb(25, 167, 206);
-    border-radius: 25px;
+    border: 2px solid rgb(20, 108, 148);
+    border-radius: 20px;
     font-family: inter;
     font-size: 20px;
-    color: rgb(20, 108, 148);
+    color: white;
     text-decoration: none;
 }
 
 .content .formDiv .form .submitButton button:hover {
     background-color: transparent;
-    padding: 20px;
-    border-radius: 25px;
-    border: 2px solid rgb(20, 108, 148);
+    color: rgb(20, 108, 148);
+}
+
+.form p {
     font-family: inter;
-    font-size: 20px;
+}
+
+a:link {
+    color: rgb(20, 108, 148);
+    text-decoration: none;
+}
+
+a:hover,
+a:visited {
     color: rgb(25, 167, 206);
+    text-decoration: none;
 }
